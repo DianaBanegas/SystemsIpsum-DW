@@ -1,7 +1,7 @@
 var express = require("express");
 var app = express();
 
-app.use(express.static("public"));
+app.use(express.static("src"));
 
 app.listen(3333, function(){
     console.log("Servidor del frontend levantado en 3333");
