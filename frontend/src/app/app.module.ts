@@ -8,6 +8,7 @@ import { LoginComponent } from './components/login/login.component';
 import { SignupPlatinumComponent } from './components/signup-platinum/signup-platinum.component';
 import { SignUpComponent } from './components/sign-up/sign-up.component';
 import { SignUpGoldenComponent } from './components/sign-up-golden/sign-up-golden.component';
+import { TopBarComponent } from './top-bar/top-bar.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { SignUpGoldenComponent } from './components/sign-up-golden/sign-up-golde
     LoginComponent,
     SignupPlatinumComponent,
     SignUpComponent,
-    SignUpGoldenComponent
+    SignUpGoldenComponent,
+    TopBarComponent
   ],
   imports: [
     BrowserModule,
