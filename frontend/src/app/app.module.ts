@@ -9,6 +9,7 @@ import { SignupPlatinumComponent } from './components/signup-platinum/signup-pla
 import { SignUpComponent } from './components/sign-up/sign-up.component';
 import { SignUpGoldenComponent } from './components/sign-up-golden/sign-up-golden.component';
 import { TopBarComponent } from './components/top-bar/top-bar.component';
+import { TopBarPlanComponent } from './top-bar-plan/top-bar-plan.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { TopBarComponent } from './components/top-bar/top-bar.component';
     SignupPlatinumComponent,
     SignUpComponent,
     SignUpGoldenComponent,
-    TopBarComponent
+    TopBarComponent,
+    TopBarPlanComponent
   ],
   imports: [
     BrowserModule,
