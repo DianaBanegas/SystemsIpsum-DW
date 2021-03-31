@@ -12,6 +12,8 @@ import { TopBarComponent } from './components/top-bar/top-bar.component';
 import { TopBarPlanComponent } from './components/top-bar-plan/top-bar-plan.component';
 import { IndexComponent } from './components/index/index.component';
 import { FooterComponent } from './components/footer/footer.component';
+import { CardsindexComponent } from './components/cardsindex/cardsindex.component';
+
 
 @NgModule({
   declarations: [
@@ -23,7 +25,8 @@ import { FooterComponent } from './components/footer/footer.component';
     TopBarComponent,
     TopBarPlanComponent,
     IndexComponent,
-    FooterComponent
+    FooterComponent,
+    CardsindexComponent
   ],
   imports: [
     BrowserModule,
