@@ -11,6 +11,7 @@ import { SignUpGoldenComponent } from './components/sign-up-golden/sign-up-golde
 import { TopBarComponent } from './components/top-bar/top-bar.component';
 import { TopBarPlanComponent } from './components/top-bar-plan/top-bar-plan.component';
 import { IndexComponent } from './components/index/index.component';
+import { FooterComponent } from './components/footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { IndexComponent } from './components/index/index.component';
     SignUpGoldenComponent,
     TopBarComponent,
     TopBarPlanComponent,
-    IndexComponent
+    IndexComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
