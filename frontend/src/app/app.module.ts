@@ -9,7 +9,8 @@ import { SignupPlatinumComponent } from './components/signup-platinum/signup-pla
 import { SignUpComponent } from './components/sign-up/sign-up.component';
 import { SignUpGoldenComponent } from './components/sign-up-golden/sign-up-golden.component';
 import { TopBarComponent } from './components/top-bar/top-bar.component';
-import { TopBarPlanComponent } from './top-bar-plan/top-bar-plan.component';
+import { TopBarPlanComponent } from './components/top-bar-plan/top-bar-plan.component';
+import { IndexComponent } from './components/index/index.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { TopBarPlanComponent } from './top-bar-plan/top-bar-plan.component';
     SignUpComponent,
     SignUpGoldenComponent,
     TopBarComponent,
-    TopBarPlanComponent
+    TopBarPlanComponent,
+    IndexComponent
   ],
   imports: [
     BrowserModule,
