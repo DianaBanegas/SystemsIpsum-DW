@@ -13,6 +13,8 @@ import { TopBarPlanComponent } from './components/top-bar-plan/top-bar-plan.comp
 import { IndexComponent } from './components/index/index.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { CardsindexComponent } from './components/cardsindex/cardsindex.component';
+import { CardsPlanComponent } from './components/cards-plan/cards-plan.component';
+import { PlanComponent } from './components/plan/plan.component';
 
 
 @NgModule({
@@ -26,7 +28,9 @@ import { CardsindexComponent } from './components/cardsindex/cardsindex.componen
     TopBarPlanComponent,
     IndexComponent,
     FooterComponent,
-    CardsindexComponent
+    CardsindexComponent,
+    CardsPlanComponent,
+    PlanComponent
   ],
   imports: [
     BrowserModule,
