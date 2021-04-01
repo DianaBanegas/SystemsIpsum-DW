@@ -15,7 +15,7 @@ const routes: Routes = [
   {path:'login', component:LoginComponent},
   {path:'signUpPlatinum', component:SignupPlatinumComponent},
   {path:'signUp', component:SignUpComponent},
-  {path:'signUpGolden', component:SignUpGoldenComponent },
+  {path:'signUpGold', component:SignUpGoldenComponent },
   {path:'plan', component:PlanComponent },
 ];
 
