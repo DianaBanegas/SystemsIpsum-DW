@@ -7,6 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ProfileComponent implements OnInit {
 
+  public title = 'My Profile | Systems Ipsum';
   constructor() { }
 
   ngOnInit(): void {
