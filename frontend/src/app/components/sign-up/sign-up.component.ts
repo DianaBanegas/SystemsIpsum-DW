@@ -8,6 +8,7 @@ import { FormControl } from '@angular/forms';
 })
 export class SignUpComponent implements OnInit {
 public tittle='SignUp | Systems Ipsum';
+email= newFormControl
   constructor() { }
 
   ngOnInit(): void {
