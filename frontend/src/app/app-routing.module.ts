@@ -9,6 +9,7 @@ import { SignUpGoldenComponent } from './components/sign-up-golden/sign-up-golde
 import { IndexComponent } from './components/index/index.component';
 import { PlanComponent } from './components/plan/plan.component';
 import { ProfileComponent } from './components/profile/profile.component';
+import { ProyectComponent } from './components/proyect/proyect.component';
 
 
 const routes: Routes = [
@@ -18,7 +19,8 @@ const routes: Routes = [
   {path:'signUp', component:SignUpComponent},
   {path:'signUpGold', component:SignUpGoldenComponent },
   {path:'plan', component:PlanComponent },
-  {path:'profile', component:ProfileComponent }
+  {path:'profile', component:ProfileComponent },
+  {path:'proyect', component:ProyectComponent }
 ];
 
 @NgModule({

@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { FormsModule } from "@angular/forms";
+import { ReactiveFormsModule } from "@angular/forms";
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -17,6 +18,7 @@ import { CardsPlanComponent } from './components/cards-plan/cards-plan.component
 import { PlanComponent } from './components/plan/plan.component';
 import { ProfileComponent } from './components/profile/profile.component';
 import { TopBarProfileComponent } from './components/top-bar-profile/top-bar-profile.component';
+import { ProyectComponent } from './components/proyect/proyect.component';
 
 
 @NgModule({
@@ -34,12 +36,14 @@ import { TopBarProfileComponent } from './components/top-bar-profile/top-bar-pro
     CardsPlanComponent,
     PlanComponent,
     ProfileComponent,
-    TopBarProfileComponent
+    TopBarProfileComponent,
+    ProyectComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    FormsModule
+    FormsModule,
+    ReactiveFormsModule
   ],
   providers: [
     AppRoutingModule
