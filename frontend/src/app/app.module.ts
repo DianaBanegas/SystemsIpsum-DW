@@ -19,7 +19,8 @@ import { PlanComponent } from './components/plan/plan.component';
 import { ProfileComponent } from './components/profile/profile.component';
 import { TopBarProfileComponent } from './components/top-bar-profile/top-bar-profile.component';
 import { ProyectComponent } from './components/proyect/proyect.component';
-import { AboutusComponent } from './aboutus/aboutus.component';
+import { AboutusComponent } from './components/aboutus/aboutus.component';
+import { InfoindexComponent } from './components/infoindex/infoindex.component';
 
 
 @NgModule({
@@ -39,7 +40,8 @@ import { AboutusComponent } from './aboutus/aboutus.component';
     ProfileComponent,
     TopBarProfileComponent,
     ProyectComponent,
-    AboutusComponent
+    AboutusComponent,
+    InfoindexComponent
   ],
   imports: [
     BrowserModule,
