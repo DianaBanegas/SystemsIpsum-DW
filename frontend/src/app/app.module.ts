@@ -19,6 +19,7 @@ import { PlanComponent } from './components/plan/plan.component';
 import { ProfileComponent } from './components/profile/profile.component';
 import { TopBarProfileComponent } from './components/top-bar-profile/top-bar-profile.component';
 import { ProyectComponent } from './components/proyect/proyect.component';
+import { AboutusComponent } from './aboutus/aboutus.component';
 
 
 @NgModule({
@@ -37,7 +38,8 @@ import { ProyectComponent } from './components/proyect/proyect.component';
     PlanComponent,
     ProfileComponent,
     TopBarProfileComponent,
-    ProyectComponent
+    ProyectComponent,
+    AboutusComponent
   ],
   imports: [
     BrowserModule,
