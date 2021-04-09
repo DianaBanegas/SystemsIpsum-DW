@@ -21,6 +21,7 @@ import { TopBarProfileComponent } from './components/top-bar-profile/top-bar-pro
 import { ProyectComponent } from './components/proyect/proyect.component';
 import { AboutusComponent } from './components/aboutus/aboutus.component';
 import { InfoindexComponent } from './components/infoindex/infoindex.component';
+import { PlanindexComponent } from './planindex/planindex.component';
 
 
 @NgModule({
@@ -41,7 +42,8 @@ import { InfoindexComponent } from './components/infoindex/infoindex.component';
     TopBarProfileComponent,
     ProyectComponent,
     AboutusComponent,
-    InfoindexComponent
+    InfoindexComponent,
+    PlanindexComponent
   ],
   imports: [
     BrowserModule,
