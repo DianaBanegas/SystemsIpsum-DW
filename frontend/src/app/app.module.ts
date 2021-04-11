@@ -18,11 +18,12 @@ import { CardsPlanComponent } from './components/cards-plan/cards-plan.component
 import { PlanComponent } from './components/plan/plan.component';
 import { ProfileComponent } from './components/profile/profile.component';
 import { TopBarProfileComponent } from './components/top-bar-profile/top-bar-profile.component';
-import { ProyectComponent } from './components/proyect/proyect.component';
 import { AboutusComponent } from './components/aboutus/aboutus.component';
 import { InfoindexComponent } from './components/infoindex/infoindex.component';
 import { PlanindexComponent } from './components/planindex/planindex.component';
 import { SidebarComponent } from './components/sidebar/sidebar.component';
+import { TopBarProjectComponent } from './components/top-bar-project/top-bar-project.component';
+import { ProjectComponent } from './components/project/project.component';
 
 
 @NgModule({
@@ -41,11 +42,12 @@ import { SidebarComponent } from './components/sidebar/sidebar.component';
     PlanComponent,
     ProfileComponent,
     TopBarProfileComponent,
-    ProyectComponent,
     AboutusComponent,
     InfoindexComponent,
     PlanindexComponent,
-    SidebarComponent
+    SidebarComponent,
+    TopBarProjectComponent,
+    ProjectComponent
   ],
   imports: [
     BrowserModule,
