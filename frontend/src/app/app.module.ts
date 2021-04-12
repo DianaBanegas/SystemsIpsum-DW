@@ -24,6 +24,7 @@ import { PlanindexComponent } from './components/planindex/planindex.component';
 import { SidebarComponent } from './components/sidebar/sidebar.component';
 import { TopBarProjectComponent } from './components/top-bar-project/top-bar-project.component';
 import { ProjectComponent } from './components/project/project.component';
+import { UserComponent } from './user/user.component';
 
 
 @NgModule({
@@ -47,7 +48,8 @@ import { ProjectComponent } from './components/project/project.component';
     PlanindexComponent,
     SidebarComponent,
     TopBarProjectComponent,
-    ProjectComponent
+    ProjectComponent,
+    UserComponent
   ],
   imports: [
     BrowserModule,
