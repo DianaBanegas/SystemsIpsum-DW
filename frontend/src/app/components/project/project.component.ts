@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { CodemirrorModule } from '@ctrl/ngx-codemirror';
+
 
 
 @Component({
@@ -8,9 +10,12 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ProjectComponent implements OnInit {
   public title = 'Project | Systems Ipsum';
-  constructor() { }
+  public code ='aver';
+
+  constructor( ) { }
 
   ngOnInit(): void {
+
   }
 
 }

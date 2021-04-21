@@ -65,4 +65,5 @@ import { UserComponent } from './components/user/user.component';
   ],
   bootstrap: [AppComponent]
 })
+
 export class AppModule { }

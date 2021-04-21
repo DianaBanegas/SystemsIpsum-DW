@@ -13,12 +13,12 @@
                <div id="row">
 
                     <div align="left">
-                         <h6 class="fonttwo"  style=" margin-left: 13rem; display: inline; color:#B564D4;">HTML
+                         <h6 class="fonttwo" style=" margin-left: 13rem; display: inline; color:#B564D4;">HTML
                          </h6>
                          <h6 class="fonttwo" style=" margin-left: 28rem; display: inline; color:#C2F56E;">CSS</h6>
                     </div>
 
-                    <textarea class="ml-3 code"  style="border-color: #B564D4;" rows="4" cols="50">
+                    <textarea class="ml-3 code" [(ngModel)]="code" style="border-color: #B564D4;" rows="4" cols="50">
 
                     </textarea>
 
@@ -28,7 +28,7 @@
 
                     <br>
                     <div align="left">
-                         <h6 class="fonttwo"  style=" margin-left: 13rem; display: inline; color:#E969AB;">JAVASCRIPT
+                         <h6 class="fonttwo" style=" margin-left: 13rem; display: inline; color:#E969AB;">JAVASCRIPT
                          </h6>
                          <h6 class="fonttwo" style=" margin-left: 25rem; display: inline; color:#F7FE72;">RESULT</h6>
                     </div>
@@ -38,20 +38,19 @@
                     <textarea class=" ml-3 code" id="editorjs" style="border-color: #E969AB;" rows="4" cols="50">
 
                     </textarea>
-               <!--    <textarea class=" ml-3 code" style="border-color: #F7FE72;" rows="4" cols="50">
+                    <!--    <textarea class=" ml-3 code" style="border-color: #F7FE72;" rows="4" cols="50">
 
                     </textarea>-->
 
-                    <iframe id="result" name="CodePen" src="http://localhost:4200/project" 
-                    class="result-iframe iframe-empty ml-3 code" style="border-color: #F7FE72;">
+                    <iframe id="result" name="CodePen" src="http://localhost:4200/project"
+                         class="result-iframe iframe-empty ml-3 code" style="border-color: #F7FE72;">
                     </iframe>
 
 
 
                </div>
                <!-- End of Main Content -->
-
-
+             
                <!-- Footer -->
                <app-footer></app-footer>
                <!-- End of Footer -->
