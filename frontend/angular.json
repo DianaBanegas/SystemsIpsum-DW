@@ -27,8 +27,10 @@
             "tsConfig": "tsconfig.app.json",
             "aot": true,
             "assets": [
+              { "glob": "**/*", "input": "../node_modules/ngx-monaco-editor/assets/monaco", "output": "./assets/monaco/" },
               "src/favicon.ico",
               "src/assets"
+              
             ],
             "styles": [
               "src/styles.css"
