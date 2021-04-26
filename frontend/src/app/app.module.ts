@@ -5,6 +5,7 @@ import { ReactiveFormsModule } from "@angular/forms";
 import { CodemirrorModule } from '@ctrl/ngx-codemirror';
 
 
+
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { LoginComponent } from './components/login/login.component';
@@ -58,7 +59,8 @@ import { UserComponent } from './components/user/user.component';
     AppRoutingModule,
     FormsModule,
     ReactiveFormsModule,
-    CodemirrorModule
+    CodemirrorModule,
+  
   ],
   providers: [
     AppRoutingModule
